@@ -29,35 +29,35 @@
             <li id="auth">
                 <a>
                     <i class="fas fa-user-tie"></i>
-                   Hi, {{ Auth::user()->name }}
+                     Hi, {{ Auth::user()->name }}
                 </a>
             </li>
-            <li id="browse">
-                <a>
+            <li>
+                <a id="browse" href="/browse">
                     <i class="fas fa-music"></i>
                     Browse
                 </a>
             </li>
-            <li id="album">
-                <a>
+            <li>
+                <a id="album" href="/album">
                     <i class="fas fa-image"></i>
                     Album
                 </a>
             </li>
-            <li id="artist">
-                <a>
+            <li >
+                <a id="artist" href="/artist">
                     <i class="fas fa-users"></i>
                     Artist
                 </a>
             </li>
-            <li id="playlist">
-                <a>
+            <li >
+                <a id="playlist" href="/playlist">
                     <i class="fas fa-headphones"></i>
                     My Playlist
                 </a>
             </li>
-            <li style="background: #212226;", id="search">
-                <a>
+            <li style="background: #212226;",>
+                <a id="search" href="/index">
                     <i class="fas fa-search"></i>
                     Search
                 </a>
